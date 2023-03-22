@@ -1,0 +1,2 @@
+transliterate~=1.10.2
+pandas~=1.5.3
