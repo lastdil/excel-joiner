@@ -25,7 +25,7 @@ now = datetime.now()
 date_time_str = now.strftime("%Y-%m-%d-%H-%M-%S")
 
 # Add the current date and time to the filename of the merged Excel document
-diff_result = f"merged_doc_{date_time_str}.xlsx"
+merged_doc = f"merged_doc_{date_time_str}.xlsx"
 
 # Save the merged DataFrame to the new Excel document
-merged_df.to_excel(diff_result, index=False)
+merged_df.to_excel(merged_doc, index=False)
