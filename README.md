@@ -15,7 +15,7 @@ pip install -r requirements.txt
 To use this program, call the script with two command line arguments: the filenames of the two Excel documents you wish to merge. For example:
 
 ```sh
-python excel_merger.py file1.xlsx file2.xlsx
+python excel_merger.py ./example/1.xlsx ./example/2.xlsx
 ```
 
 The resulting merged DataFrame will be printed to the console, and a new Excel file with the merged data will be created in the same directory as the script with a filename in the format of `merged_doc_<date>-<time>.xlsx`, where `<date>-<time>` is the current date and time.
